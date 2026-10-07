@@ -7,6 +7,8 @@ VPKEdit is an open source MIT-licensed tool that can create, extract from, previ
 
 > [!NOTE]
 > **Fork Details**: This fork replaces all transgender-themed branding, icons, and application logos with the classic Half-Life / Valve aesthetic (yellow folder with orange lambda).
+> 
+> Please note that this is not done out of hate or malice. VPKEdit is a great piece of software; the intent is simply that software tools should remain neutral and avoid political or ideological content.
 
 <div>
   <a href="https://github.com/craftablescience/VPKEdit/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/license/craftablescience/VPKEdit?label=license" alt="License" /></a>
