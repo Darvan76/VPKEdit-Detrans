@@ -1,9 +1,12 @@
 <div>
-  <img align="left" width="44px" src="https://github.com/craftablescience/VPKEdit/blob/main/res/brand/logo_512.png?raw=true" alt="VPKEdit Logo" />
+  <img align="left" width="44px" src="res/brand/logo_512.png" alt="VPKEdit Logo" />
   <h1>VPKEdit</h1>
 </div>
 
 VPKEdit is an open source MIT-licensed tool that can create, extract from, preview the contents of and write to several pack file formats.
+
+> [!NOTE]
+> **Fork Details**: This fork replaces all transgender-themed branding, icons, and application logos with the classic Half-Life / Valve aesthetic (yellow folder with orange lambda).
 
 <div>
   <a href="https://github.com/craftablescience/VPKEdit/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/license/craftablescience/VPKEdit?label=license" alt="License" /></a>
