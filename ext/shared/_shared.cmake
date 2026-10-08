@@ -21,6 +21,14 @@ FetchContent_Declare(
 	URL "https://github.com/craftablescience/minizip-ng/archive/de1f8bba0b7dbd0920289768edad8d878c95421f.zip"
 	DOWNLOAD_EXTRACT_TIMESTAMP TRUE
 )
+# Fix for libtommath unresolved external symbols (s_read_getrandom, s_read_arc4random, s_read_urandom) in MSVC Debug builds
+FetchContent_Declare(
+	libtommath
+	URL "https://github.com/craftablescience/libtommath/archive/d0c643ffb76db2ff7592e8f0834f671d25cf8159.zip"
+	DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+	OVERRIDE_FIND_PACKAGE
+	EXCLUDE_FROM_ALL
+)
 
 add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/sourcepp")
 
