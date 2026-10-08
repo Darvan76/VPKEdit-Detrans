@@ -30,5 +30,13 @@ FetchContent_Declare(
 	EXCLUDE_FROM_ALL
 )
 
+# Disable minizip-ng BZip2 support to avoid cloning from unreliable sourceware.org git server (unused by sourcepp)
+set(MZ_BZIP2 OFF CACHE INTERNAL "" FORCE)
+FetchContent_Declare(
+	bzip2
+	URL "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz"
+	DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+)
+
 add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/sourcepp")
 
